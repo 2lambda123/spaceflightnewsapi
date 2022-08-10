@@ -1,12 +1,18 @@
-FROM node:latest
+FROM strapi/base
 LABEL org.opencontainers.image.source https://github.com/spaceflightnewsapi/spaceflightnewsapi
 
 WORKDIR /app
 
-# Bundle APP files
+COPY ./package.json ./
+
+RUN npm install
+
 COPY . .
 
-# Install app dependencies
-RUN npm install --production && npm run build
+ENV NODE_ENV production
 
-CMD [ "npm", "run", "start" ]
+RUN npm run build
+
+EXPOSE 1337
+
+CMD ["npm", "run", "start"]
