@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/blogs/count": {
+    "/v3/blogs/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -57,7 +57,7 @@
         "parameters": []
       }
     },
-    "/blogs": {
+    "/v3/blogs": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -250,7 +250,7 @@
         ]
       }
     },
-    "/blogs/{id}": {
+    "/v3/blogs/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -314,7 +314,7 @@
         ]
       }
     },
-    "/blogs/launch/{id}": {
+    "/v3/blogs/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all blogs linked to a launch",
@@ -382,7 +382,7 @@
         ]
       }
     },
-    "/blogs/event/{id}": {
+    "/v3/blogs/event/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all blogs linked to an event",

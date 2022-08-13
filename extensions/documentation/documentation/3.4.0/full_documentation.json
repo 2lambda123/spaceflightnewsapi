@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "05/26/2022 9:46:31 PM"
+    "x-generation-date": "08/13/2022 8:42:17 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -46,7 +46,7 @@
     }
   ],
   "paths": {
-    "/articles/count": {
+    "/v3/articles/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -103,7 +103,7 @@
         "parameters": []
       }
     },
-    "/articles": {
+    "/v3/articles": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -296,7 +296,7 @@
         ]
       }
     },
-    "/articles/{id}": {
+    "/v3/articles/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -360,7 +360,7 @@
         ]
       }
     },
-    "/articles/launch/{id}": {
+    "/v3/articles/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to a launch",
@@ -428,7 +428,7 @@
         ]
       }
     },
-    "/articles/event/{id}": {
+    "/v3/articles/event/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all articles linked to an event",
@@ -496,7 +496,7 @@
         ]
       }
     },
-    "/blogs/count": {
+    "/v3/blogs/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -553,7 +553,7 @@
         "parameters": []
       }
     },
-    "/blogs": {
+    "/v3/blogs": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -746,7 +746,7 @@
         ]
       }
     },
-    "/blogs/{id}": {
+    "/v3/blogs/{id}": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -810,7 +810,7 @@
         ]
       }
     },
-    "/blogs/launch/{id}": {
+    "/v3/blogs/launch/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all blogs linked to a launch",
@@ -878,7 +878,7 @@
         ]
       }
     },
-    "/blogs/event/{id}": {
+    "/v3/blogs/event/{id}": {
       "get": {
         "deprecated": false,
         "description": "Get all blogs linked to an event",
@@ -946,10 +946,10 @@
         ]
       }
     },
-    "/info": {
+    "/v3/info": {
       "get": {
         "deprecated": false,
-        "description": "Endpoint to retrieve infomation about various aspects of the API.",
+        "description": "",
         "responses": {
           "200": {
             "description": "response",
@@ -957,14 +957,8 @@
               "application/json": {
                 "schema": {
                   "properties": {
-                    "version": {
+                    "foo": {
                       "type": "string"
-                    },
-                    "newsSites": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
                     }
                   }
                 }
@@ -1009,7 +1003,7 @@
         "parameters": []
       }
     },
-    "/reports/count": {
+    "/v3/reports/count": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1066,7 +1060,7 @@
         "parameters": []
       }
     },
-    "/reports": {
+    "/v3/reports": {
       "get": {
         "deprecated": false,
         "description": "",
@@ -1259,7 +1253,7 @@
         ]
       }
     },
-    "/reports/{id}": {
+    "/v3/reports/{id}": {
       "get": {
         "deprecated": false,
         "description": "",

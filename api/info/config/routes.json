@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/info",
+      "path": "/v3/info",
       "handler": "info.index",
       "config": {
         "policies": []

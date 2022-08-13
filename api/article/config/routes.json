@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/articles/count",
+      "path": "/v3/articles/count",
       "handler": "article.count",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles",
+      "path": "/v3/articles",
       "handler": "article.find",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles/:id",
+      "path": "/v3/articles/:id",
       "handler": "article.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles/launch/:id",
+      "path": "/v3/articles/launch/:id",
       "handler": "article.findPerLaunch",
       "config": {
         "policies": [],
@@ -35,7 +35,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles/event/:id",
+      "path": "/v3/articles/event/:id",
       "handler": "article.findPerEvent",
       "config": {
         "policies": [],

@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/info": {
+    "/v3/info": {
       "get": {
         "deprecated": false,
         "description": "",
