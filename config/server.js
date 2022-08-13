@@ -4,13 +4,10 @@ module.exports = ({ env }) => ({
   cron: {
     enabled: true
   },
-  url: env('BACKEND_URL', 'http://localhost:1337'),
   admin: {
     auth: {
       secret: env('ADMIN_JWT_SECRET', 'super_secret_jwt'),
-    },
-    url: env('ADMIN_URL', 'http://localhost:1337/admin'),
-    serveAdminPanel: false
+    }
   },
   ll_token: env('LL_TOKEN', 'get_this_token_via_patreon'),
   ll_url: env('LL_URL', 'https://ll.thespacedevs.com/2.2.0'),
