@@ -22,15 +22,15 @@
   },
   "servers": [
     {
-      "url": "https://api.spaceflightnewsapi.net/v3",
+      "url": "https://api.spaceflightnewsapi.net",
       "description": "Spaceflight News API"
     },
     {
-      "url": "https://api.spaceflightnewsapi.net/v3",
+      "url": "https://api.spaceflightnewsapi.net",
       "description": "Spaceflight News API - I need an acc entry"
     },
     {
-      "url": "https://api.spaceflightnewsapi.net/v3",
+      "url": "https://api.spaceflightnewsapi.net",
       "description": "Spaceflight News API - I need a dev entry"
     }
   ],

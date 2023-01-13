@@ -14,7 +14,7 @@
       "name": "GPLv3",
       "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
     },
-    "x-generation-date": "08/13/2022 8:42:17 PM"
+    "x-generation-date": "01/13/2023 9:29:57 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -24,15 +24,15 @@
   },
   "servers": [
     {
-      "url": "https://api.spaceflightnewsapi.net/v3",
+      "url": "https://api.spaceflightnewsapi.net",
       "description": "Spaceflight News API"
     },
     {
-      "url": "https://api.spaceflightnewsapi.net/v3",
+      "url": "https://api.spaceflightnewsapi.net",
       "description": "Spaceflight News API - I need an acc entry"
     },
     {
-      "url": "https://api.spaceflightnewsapi.net/v3",
+      "url": "https://api.spaceflightnewsapi.net",
       "description": "Spaceflight News API - I need a dev entry"
     }
   ],
