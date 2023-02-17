@@ -1,5 +1,8 @@
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/spaceflightnewsapi/spaceflightnewsapi/main)
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788189195-db9c0253b0e83654cfd9d91f)
+![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788189195-db9c0253b0e83654cfd9d91f)v
+
+# V4 in the works!
+V4 is getting closer to a release! You'll find the new code in the development branch.
 
 # Spaceflight News API
 
