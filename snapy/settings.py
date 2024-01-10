@@ -32,7 +32,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", "False")
+DEBUG = os.getenv("DEBUG", False)
 
 if DEBUG is False:
     sentry_sdk.init(
@@ -140,7 +140,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 # STATIC_URL = "static/"
 # STATIC_ROOT = BASE_DIR / "staticfiles"
-USE_MINIO = os.getenv("USE_MINIO", False)
+USE_MINIO = bool(os.getenv("USE_MINIO", False))
 if USE_MINIO:
     INSTALLED_APPS.append("django_minio_backend")
     MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://localhost:9000")
@@ -196,4 +196,4 @@ CELERY_RESULT_EXTENDED = True
 
 # LL Settings
 LL_URL = os.getenv("LL_URL")
-LL_TOKEN = os.getenv("LL_TOKEN", "")
+LL_TOKEN = os.getenv("LL_TOKEN","YOUR_TOKEN_HERE")
