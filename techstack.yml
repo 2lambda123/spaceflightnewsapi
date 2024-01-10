@@ -1,0 +1,284 @@
+repo_name: 2lambda123/spaceflightnewsapi
+report_id: 389ca28db21a3fcc1d7e6226d1e1dfc6
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:23+00:00'
+requested_by: derkweijers
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi
+  detection_source: Repo Metadata
+- name: Heroku Postgres
+  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
+    database, PostgreSQL
+  website_url: https://www.heroku.com/postgres
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: PostgreSQL as a Service
+  image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-02-21 13:15:51.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-02-21 13:15:51.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/.github/workflows/cleanup.yml
+  detection_source: ".github/workflows/cleanup.yml"
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-10-11 12:57:47.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-02-01 19:00:34.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-01-23 14:15:57.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-02-21 13:15:51.000000000 Z
+- name: celery
+  description: Distributed Task Queue
+  package_url: https://pypi.org/project/celery
+  version: 5.3.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19901/default_4f4fb10b6f169603a907dcb35a5a356d784e3bd3.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-09-07 15:15:20.000000000 Z
+- name: dj-database-url
+  description: Use Database URLs in your Django Application
+  package_url: https://pypi.org/project/dj-database-url
+  version: 2.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20428/default_bd9b8499e6f547a7732694c637f33437a8c7ba95.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-07-30 11:35:09.000000000 Z
+- name: django-celery-results
+  description: Celery result backends for Django
+  package_url: https://pypi.org/project/django-celery-results
+  version: 2.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-10-05 12:05:41.000000000 Z
+- name: django-cors-headers
+  description: Django-cors-headers is a Django application for handling the server
+    headers required for Cross-Origin Resource Sharing
+  package_url: https://pypi.org/project/django-cors-headers
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20425/default_fd0859a8a050b41b42cc678a2c0c5f51ce41801a.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-10-05 12:05:41.000000000 Z
+- name: django-filter
+  description: Django-filter is a reusable Django application for allowing users to
+    filter querysets dynamically
+  package_url: https://pypi.org/project/django-filter
+  version: '23.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20158/default_31f4acd7a71628261771488a4d0f37f63bff1598.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-10-05 12:05:41.000000000 Z
+- name: djangorestframework
+  description: Web APIs for Django, made easy
+  package_url: https://pypi.org/project/djangorestframework
+  version: 3.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-10-05 12:05:41.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 21.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-07-28 12:55:38.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.25.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-09-18 19:25:50.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.9
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-10-04 06:36:19.000000000 Z
+- name: sentry-sdk
+  description: Python client for Sentry
+  package_url: https://pypi.org/project/sentry-sdk
+  version: 1.31.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19998/default_b31141ac99e60278dc869f5a0490a63444b590d7.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-09-07 15:15:20.000000000 Z
+- name: uritemplate
+  description: URI templates
+  package_url: https://pypi.org/project/uritemplate
+  version: 4.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20156/default_0a9d6219a6023591895a9db3a2e96da524d7a0a8.png
+  detection_source_url: https://github.com/2lambda123/spaceflightnewsapi/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Derk Weijers
+  last_updated_on: 2023-01-23 14:15:57.000000000 Z
