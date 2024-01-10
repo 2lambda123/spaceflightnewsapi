@@ -20,7 +20,7 @@ RUN poetry install --no-interaction --no-root --no-ansi
 
 
 FROM base
-LABEL org.opencontainers.image.source https://github.com/TheSpaceDevs/spaceflightnewsapi
+LABEL org.opencontainers.image.source https://github.com/2lambda123/spaceflightnewsapi
 
 ARG RELEASE_VERSION
 ENV SNAPI_VERSION=$RELEASE_VERSION
