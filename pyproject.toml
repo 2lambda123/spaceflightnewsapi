@@ -22,7 +22,7 @@ django-celery-results = "^2.4.0"
 gunicorn = "^22.0.0"
 sentry-sdk = "^2.6.0"
 dj-database-url = "^2.0.0"
-django-minio-backend = "^3.5.0"
+django-minio-backend = "^3.6.0"
 ruff = "^0.4.10"
 psycopg2-binary = "^2.9.9"
 
